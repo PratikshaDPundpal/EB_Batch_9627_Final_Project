@@ -1,0 +1,73 @@
+*******Scope of project********
+
+The scope of a project automation exercise can vary widely depending on the specific objectives, the size and complexity of the project, and the available resources. However, here's a general outline of what the scope of a project automation exercise might entail:
+
+**Project Overview**:
+It is a demo E-commerce website regarding every products range of men ,kids and women .
+
+**Automation Goals**:
+Automation goal of this website is to test the modules with the help of automation tools wether it is matching with the specification recieved from client.
+
+**Automation Scope**:
+Following are the test cases can perform on this demo website:-
+1.Login with registered user.
+a)Login with correct loginname and password.
+Steps:-
+
+1. Launch browser
+2. Navigate to url 'https://automationteststore.com/'
+3. Verify that home page is visible successfully
+4. Click on 'Signup / Login' button
+5. Verify 'Login to your account' is visible
+6. Enter correct email address and password
+7. Click 'login' button
+8. Verify that 'Logged in as username' is visible
+9. Click 'Delete Account' button
+10. Verify that 'ACCOUNT DELETED!' is visible
+b)Login with incorrect usename and password.
+Steps:- 
+
+1. Launch browser
+2. Navigate to url 'https://automationteststore.com/'
+3. Verify that home page is visible successfully
+4. Click on 'Signup / Login' button
+5. Verify 'Login to your account' is visible
+6. Enter incorrect email address and password
+7. Click 'login' button
+8. Verify error 'Your email or password is incorrect!' is visible
+2.Signup for registration.
+3.Verifying the products
+Steps:-
+1. Launch browser
+2. Navigate to url 'https://automationteststore.com/'
+3. Verify that home page is visible successfully
+4. Click on 'Menu Products' button
+5. Verify user is navigated to ALL PRODUCTS page successfully
+6. The products list is visible
+7. Click on 'View Product' of first product
+8. User is landed to product detail page
+9. Verify that detail detail is visible: product name, category, price, availability, condition, brand
+
+
+**Automation Tools and Technologies**:
+Selenium
+
+**Automation Strategy**:
+Describe the overall automation strategy, including how automation will be integrated into the project's development and testing processes. Explain the criteria for selecting what to automate and what not to automate.
+
+**Test Coverage**:
+Below are the modules covered in testing:-
+a)Login
+b)signup.
+c)product.
+
+Automation Schedule:
+Provide a timeline for the automation exercise. Define milestones, deadlines, and dependencies. Consider factors like resource availability and project deadlines when creating the schedule.
+
+**Resource Requirements**:
+
+
+Testing Environments:
+Define the testing environments required for automation, such as development, staging, and production environments. Specify how automation scripts will be executed in these environments.
+
+

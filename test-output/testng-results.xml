@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-25T19:03:42 IST" name="Default suite" finished-at="2023-09-25T19:11:24 IST" duration-ms="461779">
+    <groups>
+    </groups>
+    <test started-at="2023-09-25T19:03:42 IST" name="Default test" finished-at="2023-09-25T19:11:24 IST" duration-ms="461779">
+      <class name="mainPackage.MainClass">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:03:42 IST" name="beforeTest" finished-at="2023-09-25T19:04:18 IST" duration-ms="35316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="Test1()[pri:1, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:04:18 IST" name="Test1" finished-at="2023-09-25T19:04:23 IST" duration-ms="4610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test2()[pri:2, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:04:23 IST" name="Test2" finished-at="2023-09-25T19:04:27 IST" duration-ms="4850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:3, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:04:27 IST" name="Test3" finished-at="2023-09-25T19:05:24 IST" duration-ms="57011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="Test4()[pri:4, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:05:24 IST" name="Test4" finished-at="2023-09-25T19:06:17 IST" duration-ms="52066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method signature="Test5()[pri:5, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:06:17 IST" name="Test5" finished-at="2023-09-25T19:07:06 IST" duration-ms="49001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method signature="Test6()[pri:6, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:07:06 IST" name="Test6" finished-at="2023-09-25T19:07:49 IST" duration-ms="43344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6 -->
+        <test-method signature="Test7()[pri:7, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:07:49 IST" name="Test7" finished-at="2023-09-25T19:08:24 IST" duration-ms="35327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7 -->
+        <test-method signature="Test8()[pri:8, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:08:24 IST" name="Test8" finished-at="2023-09-25T19:09:22 IST" duration-ms="57609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test8 -->
+        <test-method signature="Test9()[pri:9, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:09:22 IST" name="Test9" finished-at="2023-09-25T19:09:41 IST" duration-ms="18866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test9 -->
+        <test-method signature="Test10()[pri:10, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:09:41 IST" name="Test10" finished-at="2023-09-25T19:10:10 IST" duration-ms="29418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test10 -->
+        <test-method signature="Test11()[pri:11, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:10:10 IST" name="Test11" finished-at="2023-09-25T19:10:30 IST" duration-ms="19329" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[11]//div[2]//div[3]//a[1]//i[1]"}
+  (Session info: chrome=117.0.5938.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bbdbc333e300822a96b18480c4b260a0, findElement {using=xpath, value=//div[11]//div[2]//div[3]//a[1]//i[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49585/devtoo..., se:cdpVersion: 117.0.5938.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbdbc333e300822a96b18480c4b260a0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[11]//div[2]//div[3]//a[1]//i[1]"}
+  (Session info: chrome=117.0.5938.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bbdbc333e300822a96b18480c4b260a0, findElement {using=xpath, value=//div[11]//div[2]//div[3]//a[1]//i[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49585/devtoo..., se:cdpVersion: 117.0.5938.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbdbc333e300822a96b18480c4b260a0
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at package_2_mainFunctanalities.CartPageTest.runTest(CartPageTest.java:31)
+at mainPackage.MainClass.Test11(MainClass.java:114)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test11 -->
+        <test-method signature="Test12()[pri:12, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:10:30 IST" name="Test12" finished-at="2023-09-25T19:11:03 IST" duration-ms="32877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test12 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:mainPackage.MainClass@29647f75]" started-at="2023-09-25T19:11:03 IST" name="close" finished-at="2023-09-25T19:11:24 IST" duration-ms="21417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mainPackage.MainClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

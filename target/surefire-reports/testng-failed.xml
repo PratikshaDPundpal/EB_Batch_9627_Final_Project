@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="package_3_POM_TestCases.LoginPageTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="LoginTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- package_3_POM_TestCases.LoginPageTest -->
+      <class name="package_2_mainFunctanalities.AccountPageMenuTest">
+        <methods>
+          <include name="close"/>
+          <include name="runTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- package_2_mainFunctanalities.AccountPageMenuTest -->
+      <class name="package_1_BasicPrograms.WebPageTitleVerificationTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="runTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- package_1_BasicPrograms.WebPageTitleVerificationTest -->
+      <class name="package_1_BasicPrograms.UrlVerificationTest">
+        <methods>
+          <include name="close"/>
+          <include name="beforeTest"/>
+          <include name="runTest"/>
+        </methods>
+      </class> <!-- package_1_BasicPrograms.UrlVerificationTest -->
+      <class name="package_1_BasicPrograms.RegistrationPageTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="close"/>
+          <include name="runTest"/>
+        </methods>
+      </class> <!-- package_1_BasicPrograms.RegistrationPageTest -->
+      <class name="package_2_mainFunctanalities.CheckoutPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="runTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- package_2_mainFunctanalities.CheckoutPageTest -->
+      <class name="package_2_mainFunctanalities.CartPageTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="close"/>
+          <include name="runTest"/>
+        </methods>
+      </class> <!-- package_2_mainFunctanalities.CartPageTest -->
+      <class name="package_2_mainFunctanalities.OrderProductTest">
+        <methods>
+          <include name="close"/>
+          <include name="runTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- package_2_mainFunctanalities.OrderProductTest -->
+      <class name="package_1_BasicPrograms.LoginLogoutUsingJOptionPaneTest">
+        <methods>
+          <include name="close"/>
+          <include name="beforeTest"/>
+          <include name="runTest"/>
+        </methods>
+      </class> <!-- package_1_BasicPrograms.LoginLogoutUsingJOptionPaneTest -->
+      <class name="package_2_mainFunctanalities.SpecialsPageTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="close"/>
+          <include name="runTest"/>
+        </methods>
+      </class> <!-- package_2_mainFunctanalities.SpecialsPageTest -->
+      <class name="package_1_BasicPrograms.MouseHoverTest">
+        <methods>
+          <include name="close"/>
+          <include name="runTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- package_1_BasicPrograms.MouseHoverTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
